@@ -1,23 +1,22 @@
 <template>
-<div class="card">
-  <div class="card__content">
-    <div class="card__content--header">
-      <h2 class="card__content--header-title">
-        <slot name="header"/>
-      </h2>
-    </div>
-    <div class="card__content--body">
-      <p class="card__content--body-paragraph">
-        <slot name="body"/>
-      </p>
-    </div>
-    <div class="card__content--footer">
-      <slot name="footer"/>
+  <div class="card">
+    <div class="card__content">
+      <div class="card__content--header">
+        <h2 class="card__content--header-title">
+          <slot name="header" />
+        </h2>
+      </div>
+      <div class="card__content--body">
+        <p class="card__content--body-paragraph">
+          <slot name="body" />
+        </p>
+      </div>
+      <div class="card__content--footer">
+        <slot name="footer" />
+      </div>
     </div>
   </div>
-</div>
 </template>
-
 
 <style lang="scss">
 .card {

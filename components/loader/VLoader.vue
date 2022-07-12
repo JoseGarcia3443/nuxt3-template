@@ -8,16 +8,15 @@
 </template>
 
 <script lang="ts" setup>
-import { PropType } from 'vue';
+import { PropType } from 'vue'
 import { LoaderSize } from './types'
 
 const props = defineProps({
   size: {
     type: String as PropType<LoaderSize>,
-    default: 'md'
-  }
+    default: 'md',
+  },
 })
-
 </script>
 
 <style lang="scss" scoped>
@@ -55,5 +54,5 @@ const props = defineProps({
       animation-delay: -0.15s;
     }
   }
-}  
+}
 </style>

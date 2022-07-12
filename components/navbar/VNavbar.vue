@@ -5,8 +5,14 @@
         <span class="navbar__container--logo-text">NUXT 3</span>
       </nuxt-link>
       <v-list list-type="flex">
-        <v-list-item class="navbar__container--item" v-for="item in menu" :key="item.id">
-          <nuxt-link class="link__primary" :to="item.url">{{ item.title }}</nuxt-link>
+        <v-list-item
+          v-for="item in menu"
+          :key="item.id"
+          class="navbar__container--item"
+        >
+          <nuxt-link class="link__primary" :to="item.url">{{
+            item.title
+          }}</nuxt-link>
         </v-list-item>
       </v-list>
     </div>

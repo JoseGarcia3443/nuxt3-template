@@ -1,9 +1,7 @@
-<script lang="ts" setup>
-</script>
+<script lang="ts" setup></script>
 
 <template>
-  <div class="viewport">
-  </div>
+  <div class="viewport"></div>
 </template>
 
 <style lang="scss" scoped>

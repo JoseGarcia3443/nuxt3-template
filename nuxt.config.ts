@@ -1,7 +1,5 @@
 import { defineNuxtConfig } from 'nuxt'
 import { IntlifyModuleOptions } from '@intlify/nuxt3'
-import UnpluginComponentsVite from 'unplugin-vue-components/vite'
-import IconsResolver from 'unplugin-icons/resolver'
 
 declare module '@nuxt/schema' {
   interface NuxtConfig {
@@ -29,14 +27,14 @@ export default defineNuxtConfig({
   },
 
   // css
-  css: ['@/assets/scss/tailwind.css'],
+  css: ['~/assets/scss/tailwind.css'],
 
   // plugins
   plugins: [],
 
   // build
   build: {
-    transpile: ['@headlessui/vue'],
+    transpile: [],
     postcss: {
       postcssOptions: {
         plugins: {
@@ -50,11 +48,10 @@ export default defineNuxtConfig({
   // build modules
   buildModules: [
     '@nuxtjs/eslint-module',
-    'unplugin-icons/nuxt',
     '@pinia/nuxt',
     '@nuxtjs/svg',
     '@intlify/nuxt3',
-    '@vueuse/nuxt'
+    '@vueuse/nuxt',
   ],
   // experimental features
   experimental: {
@@ -62,9 +59,9 @@ export default defineNuxtConfig({
   },
 
   publicRuntimeConfig: {
-    API_BASE_URL: process.env.API_BASE_URL
+    API_BASE_URL: process.env.API_BASE_URL,
   },
-  
+
   // auto import components
   components: [
     '~/components',
@@ -73,19 +70,11 @@ export default defineNuxtConfig({
     '~/components/lists',
     '~/components/card',
     '~/components/navbar',
+    '~/components/icons/outline',
   ],
   // vite plugins
   vite: {
-    plugins: [
-      UnpluginComponentsVite({
-        dts: true,
-        resolvers: [
-          IconsResolver({
-            prefix: 'Icon',
-          }),
-        ],
-      }),
-    ],
+    plugins: [],
   },
 
   // localization - i18n config

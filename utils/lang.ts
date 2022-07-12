@@ -18,7 +18,7 @@ export const availableLocales: ILocales = {
     name: 'Spanish',
     iso: 'es',
     flag: 'es',
-  }
+  },
 }
 
 export function LanguageManager() {
