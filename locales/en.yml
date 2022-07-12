@@ -1,0 +1,9 @@
+pages:
+  axios:
+    title: Blog Example with axios (useFetch)
+    refresh: Refresh Data
+    empty_response: Empty response
+    count: '%{value} blog(s)'
+navigation:
+  home: 'Home'
+  axios: 'Axios'

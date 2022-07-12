@@ -1,0 +1,14 @@
+{
+  // https://v3.nuxtjs.org/concepts/typescript
+  "extends": "./.nuxt/tsconfig.json",
+  "compilerOptions": {
+    "noImplicitAny": false,
+    "strict": true,
+    "types": [
+      "@vueuse/nuxt",
+      "@intlify/nuxt3",
+      "@pinia/nuxt",
+      "@nuxtjs/axios"
+    ]
+  }
+}

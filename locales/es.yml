@@ -1,0 +1,9 @@
+pages:
+  axios:
+    title: Ejemplo de Blog con axios (useFetch)
+    refresh: Refrescar Datos
+    empty_response: Sin Datos para mostrar
+    count: '%{value} blog(s)'
+navigation:
+  home: 'Inicio'
+  axios: 'Axios'
