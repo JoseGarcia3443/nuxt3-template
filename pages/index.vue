@@ -1,7 +1,6 @@
-<script lang="ts" setup></script>
-
 <template>
-  <div class="viewport"></div>
+  <v-header-parallax />
+  <section class="h-screen"></section>
 </template>
 
 <style lang="scss" scoped>

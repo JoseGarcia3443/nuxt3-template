@@ -20,18 +20,18 @@
 
 <style lang="scss">
 .card {
-  @apply p-3 bg-gray-800 rounded h-full;
+  @apply p-3 rounded h-full;
   &__content {
     @apply flex flex-col;
     &--header {
       @apply mb-2;
       &-title {
-        @apply text-center text-gray-200 capitalize font-bold text-[18px];
+        @apply text-center capitalize font-bold text-[18px];
       }
     }
     &--body {
       &-paragraph {
-        @apply text-gray-300 text-justify;
+        @apply text-justify;
       }
     }
   }

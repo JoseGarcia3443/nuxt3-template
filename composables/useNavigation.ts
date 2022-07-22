@@ -11,12 +11,17 @@ export const useNavigation = () => {
     {
       id: 1,
       url: '/',
-      title: t('navigation.home'),
+      title: t('navigation.item'),
     },
     {
       id: 2,
-      url: '/axios',
-      title: t('navigation.axios'),
+      url: '/',
+      title: t('navigation.item'),
+    },
+    {
+      id: 3,
+      url: '/',
+      title: t('navigation.item'),
     },
   ])
 

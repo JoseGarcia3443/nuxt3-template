@@ -6,4 +6,7 @@ PrefixDescriptiveName.vue
 e.g.
 VExampleComponent.vue
 
+V - Prefix 
+ExampleComponent - descriptive name
+
 Note: I recommend to use PascalCase

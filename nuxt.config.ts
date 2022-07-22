@@ -71,6 +71,10 @@ export default defineNuxtConfig({
     '~/components/card',
     '~/components/navbar',
     '~/components/icons/outline',
+    '~/components/icons/fill',
+    '~/components/links',
+    '~/components/headers',
+    '~/components/img',
   ],
   // vite plugins
   vite: {

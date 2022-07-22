@@ -49,7 +49,7 @@ const totalBlogsFetched = computed(() => (blogs.value ? blogs.value.length : 0))
   &__header {
     @apply flex flex-col py-2;
     &--title {
-      @apply text-center text-2xl font-bold text-gray-300;
+      @apply text-center text-2xl font-bold;
     }
   }
   &__body {
@@ -62,7 +62,6 @@ const totalBlogsFetched = computed(() => (blogs.value ? blogs.value.length : 0))
       &-counter {
         @apply flex justify-end py-8;
         & span {
-          @apply text-gray-300;
         }
       }
     }

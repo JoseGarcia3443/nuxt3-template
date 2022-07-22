@@ -4,7 +4,10 @@ pages:
     refresh: Refrescar Datos
     empty_response: Sin Datos para mostrar
     count: '%{value} blog(s)'
+  header:
+    placeholder: 'Placeholder'
 navigation:
   home: 'Inicio'
   axios: 'Axios'
   icons: 'Iconos'
+  item: 'Menu Item'

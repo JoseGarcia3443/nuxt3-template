@@ -8,3 +8,4 @@ navigation:
   home: 'Home'
   axios: 'Axios'
   icons: 'Icons'
+  item: 'Menu Item'
